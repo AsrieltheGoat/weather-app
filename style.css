@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.weather .box {
+    width: 250px;
+    height:300px;
+    border-width: 2px;
+    border-style:solid;
+    border-color:red;
+    background: #CCC;
+}
+
+.weather .my-3 {
+    margin-top:1rem!important;
+    margin-bottom:1rem!important;
+}
+
+.weather .my-4 {
+    margin-top:1.5rem!important;
+    margin-bottom:1.5rem!important;
+}
+
+.weather .display-4 {
+    font-size:3.5rem;
+    font-weight:300;
+    line-height:1.2;
+}
+

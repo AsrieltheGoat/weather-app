@@ -5,60 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-        font-family: sans-serif;
-    }
-    .weather .box {
-        width: 250px;
-        height:300px;
-        border-width: 2px;
-        border-style:solid;
-        border-color:red;
-        background: #CCC;
-    }
 
-    .weather .my-3 {
-        margin-top:1rem!important;
-        margin-bottom:1rem!important;
-    }
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 
-    .weather .my-4 {
-        margin-top:1.5rem!important;
-        margin-bottom:1.5rem!important;
-    }
-
-    .weather .display-4 {
-        font-size:3.5rem;
-        font-weight:300;
-        line-height:1.2;
-    }
-
-</style>
 <body>
     <div class="weather">
         <div class="box">
-            <form  class="change-location my-4">
-                <input type="text" name="city"  class="form-control p-4" autofocus>
-            </form>
-            <div>
-                <div class="details">
-                    <h5 class="my-3">
-                        City Name
-                    </h5>
-                    <div class="my-3">Weather Conditon</div>
-                    <div class="display-4 my-4">
-                        <span>temp</span>
-                        <span>&deg;C</span>
-                    </div>
+        <form  class="change-location my-4">
+            <input type="text" name="city"  class="form-control p-4" autofocus>
+        </form>
+        
+        <div>
+            <div class="details">
+                <h5 class="my-3">
+                    City Name
+                </h5>
+                <div class="my-3">Weather Conditon</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
                 </div>
             </div>
         </div>
+        </div>
     </div>
-
-    <h3>From: <a href="https://github.com/AsishRaju/Weather-App">AsishRaju</a></h3>
-    <h3>I modified that to bare minimum and now it works :D</h3>
 </body>
 </html>

@@ -1,7 +1,7 @@
 // API
 class Forcast{
     constructor(){
-        this.apiKey='dFJrcdmmL9mGCmqeIimEAYYe5uQvsH6v' // Get your API key at 'https://developer.accuweather.com/'
+        this.apiKey='' // Get your API key at 'https://developer.accuweather.com/'
         this.weatherURI='https://dataservice.accuweather.com/currentconditions/v1/'
         this.cityURI='https://dataservice.accuweather.com/locations/v1/cities/search'
     }
